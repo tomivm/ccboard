@@ -2,36 +2,6 @@
 # yarn lockfile v1
 
 
-"@netflix/nerror@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@netflix/nerror/-/nerror-1.1.3.tgz#9d88eccca442f1d544f2761d15ea557dc0a44ed2"
-  integrity sha512-b+MGNyP9/LXkapreJzNUzcvuzZslj/RGgdVVJ16P2wSlYatfLycPObImqVJSmNAdyeShvNeM/pl3sVZsObFueg==
-  dependencies:
-    assert-plus "^1.0.0"
-    extsprintf "^1.4.0"
-    lodash "^4.17.15"
-
-"@nodelib/fs.scandir@2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.3.tgz#3a582bdb53804c6ba6d146579c46e52130cf4a3b"
-  integrity sha512-eGmwYQn3gxo4r7jdQnkrrN6bY478C3P+a/y72IJukF8LjB6ZHeB3c+Ehacj3sYeSmUXGlnA67/PmbM9CVwL7Dw==
-  dependencies:
-    "@nodelib/fs.stat" "2.0.3"
-    run-parallel "^1.1.9"
-
-"@nodelib/fs.stat@2.0.3", "@nodelib/fs.stat@^2.0.2":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-2.0.3.tgz#34dc5f4cabbc720f4e60f75a747e7ecd6c175bd3"
-  integrity sha512-bQBFruR2TAwoevBEd/NWMoAAtNGzTRgdrqnYCc7dhzfoNvqPzLyqlEQnzZ3kVnNrSp25iyxE00/3h2fqGAGArA==
-
-"@nodelib/fs.walk@^1.2.3":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@nodelib/fs.walk/-/fs.walk-1.2.4.tgz#011b9202a70a6366e436ca5c065844528ab04976"
-  integrity sha512-1V9XOY4rDW0rehzbrcqAmHnz8e7SKvX27gh8Gt2WgB0+pdzdiLV83p72kZPU+jvMbS1qU5mauP2iOvO8rhmurQ==
-  dependencies:
-    "@nodelib/fs.scandir" "2.1.3"
-    fastq "^1.6.0"
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -272,9 +242,9 @@ color-name@1.1.3:
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
 compare-func@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/compare-func/-/compare-func-1.3.2.tgz#99dd0ba457e1f9bc722b12c08ec33eeab31fa648"
-  integrity sha1-md0LpFfh+bxyKxLAjsM+6rMfpkg=
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/compare-func/-/compare-func-1.3.4.tgz#6b07c4c5e8341119baf44578085bda0f4a823516"
+  integrity sha512-sq2sWtrqKPkEXAC8tEJA1+BqAH9GbFkGBtUOqrUX57VSfwp8xyktctk+uLoRy5eccTdxzDcVIztlYDpKs3Jv1Q==
   dependencies:
     array-ify "^1.0.0"
     dot-prop "^3.0.0"
@@ -341,7 +311,7 @@ cookie@0.4.0:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
 
-cordova-android@8.1.0:
+cordova-android@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/cordova-android/-/cordova-android-8.1.0.tgz#d9aea62bbe4a4c8d22fdf21616869439cd1c95a0"
   integrity sha512-eAY6g9q3raJ4P03wNdSWC5MOW1EfxoomWNXsPhi7T6Q9yAqmxqn0sLEUjLL1Ib0LCH3nKQWBXdxapQ5LgbHu+g==
@@ -354,7 +324,7 @@ cordova-android@8.1.0:
     q "^1.5.1"
     shelljs "^0.5.3"
 
-cordova-browser@6.0.0:
+cordova-browser@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/cordova-browser/-/cordova-browser-6.0.0.tgz#26e701587076e55bf33f491f3e38fee875c32b56"
   integrity sha512-G61S7fhnVVJC98lvkGeKCVpfFtoW0a1P1Sg9TK+n03g3yupDMIM7XuecWuJ3KEMRhED4+CEc2hauruAff7oXrw==
@@ -383,15 +353,15 @@ cordova-common@^3.1.0, cordova-common@^3.2.0:
     underscore "^1.8.3"
     which "^1.3.0"
 
-cordova-plugin-android-permissions@1.0.2:
+cordova-plugin-android-permissions@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/cordova-plugin-android-permissions/-/cordova-plugin-android-permissions-1.0.2.tgz#e26556ff11a560dffa33a5915d27fe9d44b3c248"
   integrity sha512-Eb7Cf3lk9RydSYqmUzBAEVTT/EU+opV2yvyqkgZZAB/RVfHxsla/1wzHq0PBwAFjHIrxBAGZrOpJFVKc1SxtuA==
 
-cordova-plugin-file-opener2@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-2.2.1.tgz#9e422bc5e215d8eca0338ed5cd357b64b027440b"
-  integrity sha512-yeN242U6T+TDlrJ5m00br+lAKsf2fHXn1u1TsDxB5fFUGINZUYLKthEctCMFkQUnURWk+Nh6tc+WtdQjY581Uw==
+cordova-plugin-file-opener2@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-3.0.2.tgz#fa16cdb9a6b7562ebe23e452c796bd6958e6437a"
+  integrity sha512-L+actYiiOns4DViWKpfGHJJw/cNAdy3VTJFgcY5/Z9Z5GO4WzRfp0ksYCH7Icvi4XwlH9bm9TDOPtAqmnZdf7g==
 
 cordova-plugin-file@^6.0.2:
   version "6.0.2"
@@ -403,10 +373,10 @@ cordova-plugin-fullscreen@^1.2.0:
   resolved "https://registry.yarnpkg.com/cordova-plugin-fullscreen/-/cordova-plugin-fullscreen-1.2.0.tgz#482b38e881715e1fc812d6c35bea1072efb424a7"
   integrity sha512-cl8mE1MoTjv4JlwV6dw3nOc7Qj18WuNJLf2jHWUmRTYzCI/SW9ym/ghSVvonTVnaoECuHrOpmAfUoFzbb8kf2Q==
 
-cordova-plugin-google-analytics@^1.8.6:
-  version "1.8.6"
-  resolved "https://registry.yarnpkg.com/cordova-plugin-google-analytics/-/cordova-plugin-google-analytics-1.8.6.tgz#7886bd7ac9264e4dec7355ebed64d939b274731a"
-  integrity sha512-shg8e3ris1MzmhC8roraScc2GEcfe7sVlbKkvrO3wZUAlYr31sf+4wxZr/VQB6tEcPsmTAkoNjGr1zMwoYjMeg==
+cordova-plugin-google-analytics@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-google-analytics/-/cordova-plugin-google-analytics-1.9.0.tgz#508015bb4dfc5f426bd447a439c368ab58062891"
+  integrity sha512-o/UW4eJEi2YrqSJSUCJNQBBrk5V9+JT5V3djbPTIYi3rezuzJxJewxK2IjEmfgilTcZhN/Wrsqel6irL0NaRGA==
 
 cordova-plugin-statusbar@^2.4.3:
   version "2.4.3"
