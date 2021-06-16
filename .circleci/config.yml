@@ -168,6 +168,7 @@ workflows:
             branches:
               only: 
                 - master
+                - circleci-fix
       - build_android:
           context: ccboard
           requires:
@@ -184,3 +185,4 @@ workflows:
             branches:
               only: 
                 - master
+                - circleci-fix
