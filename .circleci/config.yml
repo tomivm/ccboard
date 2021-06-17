@@ -128,10 +128,10 @@ jobs:
             npm install -g cordova
             mkdir www
             mkdir -p ./tmp/workspace
-      - run:
-          name: Install dependecies
-          command: |
-            npm i
+      # - run:
+      #     name: Install dependecies
+      #     command: |
+            # npm i
       - attach_workspace:
           at: ./tmp/workspace
       - run:
